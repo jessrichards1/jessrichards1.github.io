@@ -97,6 +97,39 @@ nav.mobile ul li{
 	color:white;
 }
 
+
+
+@media only screen and (max-width: 812px) {
+
+#title{
+	font-size: 35px;
+	text-align:center;
+}
+#bodycopy
+{
+	font-size: 18px;
+	line-height: 2em;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.desktopnav{
+	display: none;
+}
+
+.mobileMenuButton{
+	font-family: 'Montserrat';
+	font-weight: 900;
+  font-size: 18px;
+	text-align: center;
+	padding-top: 20px;
+	display: block;
+}
+
+
+
+}
+
+
 @media only screen and (max-width: 568px) {
 
 #title{
