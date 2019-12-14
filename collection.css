@@ -322,6 +322,7 @@ line-height: 2em;
 .desktopnav{
 	margin: auto;
 	padding-top: 20px;
+	padding-right: 5px;
 	padding-bottom: 20px;
 	text-align: center;
 	font-size: 14px;
@@ -352,6 +353,7 @@ li{
 .desktopnav{
 	margin: auto;
 	padding-top: 20px;
+	padding-right: 5px;
 	padding-bottom: 20px;
 	text-align: center;
 	font-size: 13px;
@@ -379,6 +381,7 @@ li{
 .desktopnav{
 	margin: auto;
 	padding-top: 20px;
+	padding-right: 5px;
 	padding-bottom: 20px;
 	text-align: center;
 	font-size: 13px;
@@ -404,6 +407,7 @@ li{
 .desktopnav{
 	margin: auto;
 	padding-top: 20px;
+	padding-right: 5px;
 	padding-bottom: 20px;
 	text-align: center;
 	font-size: 12px;
