@@ -512,7 +512,7 @@ nav.mobile ul li a:hover{
 #logo{
 	display: block;
 	width: 20%;
-	margin-top:20px;
+	margin-top:-20px;
 
 }
 
