@@ -13,10 +13,13 @@ html, body {
 	}
 
 	#body{
-		min-height: 100vh;
-	  background-image: white;
+		max-width: 1500px;
+		margin:auto;
 	}
-
+	#fullwebsite{
+		max-width: 1500px;
+		margin:auto;
+	}
 
 
 
@@ -305,130 +308,106 @@ nav.mobile ul li a:hover{
 
 @media screen and (max-width: 1400px) {
 
-.desktopnav{
-	font-size: 14px;
-}
-li{
-line-height: 2em;
-}
-}
+	.desktopnav{
+		font-size: 14px;
+		max-width: 1400px;
+	}
+	li{
+	line-height: 2em;
+	}
+
+	#footer{
+		max-width: 1400px;
+	}
+	.some-page-wrapper{
+		max-width: 1400px;
+	}
+
+
+	}
 
 @media screen and (max-width: 1300px) {
 
-.desktopnav{
-	font-size: 14px;
-}
-li{
-line-height: 2em;
-}
-}
+	.desktopnav{
+		font-size: 13px;
+	}
+	li{
+	line-height: 2em;
+	}
+
+	#logo{
+		width:11%;
+		margin-top: 40px;
+	}
+	}
 
 
 @media screen and (max-width: 1200px) {
 
-.desktopnav{
-	margin: auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-	font-size: 14px;
-	display: inline-block;
-	float: center;
-}
 
-li{
-	margin: auto;
-	float: center;
-	padding-right: 25px;
-	padding-left: 25px;
-	margin: auto;
-	line-height: 2em;
-}
+	.desktopnav{
+		margin: auto;
+		padding-top: 120px;
+		padding-bottom: 20px;
+		padding-right: 0px;
+		padding-left: 0px;
+		text-align: center;
+		font-size: 13px;
+		display: block;
+		float: center;
+	}
 
-#logo{
-	float: center;
-	margin-left:500px;
-	display: block;
-	width: 15%;
-}
-}
+	li{
+		margin: auto;
+		float: center;
+		padding-right: 25px;
+		padding-left: 25px;
+		margin: auto;
+		line-height: 2em;
+	}
+
+	#logo{
+		position: absolute;
+		top: 0;
+		bottom: 490px;
+		left: 0;
+		right: 0;
+		margin: auto;
+		width: 15%;
+
+	}
+
+
+	}
 
 
 @media screen and (max-width: 1100px) {
 
-.desktopnav{
-	margin: auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-	font-size: 13px;
-	display: inline-block;
-}
+	.desktopnav{
 
-li{
-	padding-right: 20px;
-	padding-left: 20px;
-	margin: auto;
-	line-height: 2em;
-}
+		font-size: 11px;
 
-#logo{
-	float: center;
-	margin-left:450px;
-	display: block;
-	width: 15%;
-}
+	}
 }
 
 
 @media screen and (max-width: 1000px) {
 
-.desktopnav{
-	margin: auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-	font-size: 13px;
-	display: inline-block;
-}
+	.desktopnav{
 
-li{
-	padding-right: 15px;
-	padding-left: 15px;
-	margin: auto;
-}
+		font-size: 10.5px;
 
-#logo{
-	float: center;
-	margin-left:400px;
-	display: block;
-	width: 15%;
-}
+
+	}
 }
 
 @media screen and (max-width: 900px) {
 
-.desktopnav{
-	margin: auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-	font-size: 12px;
-	display: inline-block;
-}
+	.desktopnav{
 
-li{
-	padding-right: 10px;
-	padding-left: 10px;
-	margin: auto;
-}
+		font-size: 8.5px;
 
-#logo{
-	float: center;
-	margin-left:360px;
-	display: block;
-	width: 15%;
-}
+	}
 }
 
 
@@ -470,13 +449,11 @@ li{
 
 #logo{
 	float: left;
-	margin-left: 60px;
 
-	margin-top: -18px;
 	width: 22%;
 
-
 }
+
 
 }
 
@@ -508,11 +485,10 @@ li{
 }
 
 #logo{
-	padding-top: 4px;
+
 	width: 22%;
 
 }
-
 }
 
 
@@ -529,11 +505,11 @@ li{
 
 
 
-#logo{
-	padding-top: 4px;
-	width: 27%;
+	#logo{
 
-}
+		width: 27%;
+
+	}
 
 }
 
@@ -549,12 +525,12 @@ li{
 
 
 
-#logo{
-	padding-top: 4px;
-	width: 34%;
-	margin-left:40px;
+	#logo{
 
-}
+		width: 34%;
+
+
+	}
 nav.mobile ul li a{
   font-size: 20px;
 }
@@ -608,12 +584,13 @@ font-size: 13px;
 
 
 
-#logo{
-	margin-bottom: 5px;
-	width: 40%;
-	margin-left:25px;
+	#logo{
+		padding-top: px;
+		width: 40%;
+		margin-left:25px;
 
-}
+
+	}
 nav.mobile ul li a{
   font-size: 20px;
 }
@@ -640,12 +617,12 @@ nav.mobile ul li a:hover{
 @media screen and (max-width: 375px) {
 
 
-#logo{
-	padding-top: px;
-	width: 40%;
-	margin-left:25px;
+	#logo{
+		padding-top: px;
+		width: 40%;
+		margin-left:25px;
 
-}
+	}
 nav.mobile ul li a{
   font-size: 20px;
 }
@@ -674,12 +651,12 @@ nav.mobile ul li a:hover{
 
 
 
-#logo{
-	padding-top: px;
-	width: 50%;
-	margin-left:25px;
+	#logo{
+		padding-top: px;
+		width: 50%;
+		margin-left:25px;
 
-}
+	}
 nav.mobile ul li a{
   font-size: 15px;
 }
