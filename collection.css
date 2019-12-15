@@ -13,8 +13,12 @@ html, body {
 	}
 
 	#body{
-		min-height: 100vh;
-	  background-image: white;
+		max-width: 1400px;
+		margin:auto;
+	}
+	#fullwebsite{
+		max-width: 1400px;
+		margin:auto;
 	}
 
 
@@ -25,6 +29,11 @@ html, body {
 		float: left;
 		margin-left: 60px;
 		margin-top: 25px;
+	}
+
+	#center{
+		margin:auto;
+		text-align: center
 	}
 
 .desktopnav{
@@ -141,7 +150,7 @@ h2{
 }
 
 .some-page-wrapper {
-max-width: 100%;
+max-width: 1400px;
   background-color: #F4F9F9;
 }
 
@@ -294,25 +303,38 @@ nav.mobile ul li a:hover{
 }
 
 
-
-
 @media screen and (max-width: 1400px) {
 
 .desktopnav{
 	font-size: 14px;
+	max-width: 1400px;
 }
 li{
 line-height: 2em;
 }
+
+#footer{
+	max-width: 1400px;
+}
+.some-page-wrapper{
+	max-width: 1400px;
+}
+
+
 }
 
 @media screen and (max-width: 1300px) {
 
 .desktopnav{
-	font-size: 14px;
+	font-size: 13px;
 }
 li{
 line-height: 2em;
+}
+
+#logo{
+	width:11%;
+	margin-top: 40px;
 }
 }
 
@@ -321,12 +343,13 @@ line-height: 2em;
 
 .desktopnav{
 	margin: auto;
-	padding-top: 20px;
-	padding-right: 5px;
+	padding-top: 120px;
 	padding-bottom: 20px;
+	padding-right: 0px;
+	padding-left: 0px;
 	text-align: center;
 	font-size: 13px;
-	display: inline-block;
+	display: block;
 	float: center;
 }
 
@@ -340,92 +363,55 @@ li{
 }
 
 #logo{
-	float: center;
-	margin-left:500px;
-	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 400px;
+	left: 0;
+	right: 0;
+	margin: auto;
 	width: 15%;
+
 }
+
+
+
+
 }
 
 
 @media screen and (max-width: 1100px) {
 
 .desktopnav{
-	margin: auto;
-	padding-top: 20px;
-	padding-right: 5px;
-	padding-bottom: 20px;
-	text-align: center;
-	font-size: 13px;
-	display: inline-block;
+
+	font-size: 11px;
+
 }
 
-li{
-	padding-right: 20px;
-	padding-left: 20px;
-	margin: auto;
-	line-height: 2em;
-}
 
-#logo{
-	float: center;
-	margin-left:450px;
-	display: block;
-	width: 15%;
-}
+
 }
 
 
 @media screen and (max-width: 1000px) {
 
 .desktopnav{
-	margin: auto;
-	padding-top: 20px;
-	padding-right: 5px;
-	padding-bottom: 20px;
-	text-align: center;
-	font-size: 11px;
-	display: inline-block;
+
+	font-size: 10.5px;
+
+
 }
 
-li{
-	padding-right: 15px;
-	padding-left: 15px;
-	margin: auto;
-}
 
-#logo{
-	float: center;
-	margin-left:400px;
-	display: block;
-	width: 15%;
-}
 }
 
 @media screen and (max-width: 900px) {
 
 .desktopnav{
-	margin: auto;
-	padding-top: 20px;
-	padding-right: 5px;
-	padding-bottom: 20px;
-	text-align: center;
-	font-size: 9px;
-	display: inline-block;
+
+	font-size: 8.5px;
+
 }
 
-li{
-	padding-right: 10px;
-	padding-left: 10px;
-	margin: auto;
-}
-
-#logo{
-	float: center;
-	margin-left:360px;
-	display: block;
-	width: 15%;
-}
 }
 
 
@@ -467,9 +453,7 @@ li{
 
 #logo{
 	float: left;
-	margin-left: 60px;
 
-	margin-top: -18px;
 	width: 22%;
 
 }
@@ -508,7 +492,7 @@ li{
 }
 
 #logo{
-	padding-top: 4px;
+
 	width: 22%;
 
 }
@@ -530,7 +514,7 @@ li{
 
 
 #logo{
-	padding-top: 4px;
+
 	width: 27%;
 
 }
@@ -550,9 +534,9 @@ li{
 
 
 #logo{
-	padding-top: 4px;
+	
 	width: 34%;
-	margin-left:40px;
+
 
 }
 nav.mobile ul li a{
@@ -624,9 +608,10 @@ font-size: 13px;
 
 
 #logo{
-	margin-bottom: 5px;
+	padding-top: px;
 	width: 40%;
 	margin-left:25px;
+
 
 }
 nav.mobile ul li a{
