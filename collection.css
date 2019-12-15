@@ -307,17 +307,17 @@ nav.mobile ul li a:hover{
 
 .desktopnav{
 	font-size: 14px;
-	max-width: 1400px;
+	max-width: 1500px;
 }
 li{
 line-height: 2em;
 }
 
 #footer{
-	max-width: 1400px;
+	max-width: 1500px;
 }
 .some-page-wrapper{
-	max-width: 1400px;
+	max-width: 1500px;
 }
 
 
@@ -341,39 +341,34 @@ line-height: 2em;
 
 @media screen and (max-width: 1200px) {
 
-.desktopnav{
-	margin: auto;
-	padding-top: 120px;
-	padding-bottom: 20px;
-	padding-right: 0px;
-	padding-left: 0px;
-	text-align: center;
-	font-size: 13px;
-	display: block;
-	float: center;
-}
+	.desktopnav{
+		margin: auto;
+		padding-top: 30px;
+		padding-bottom: 20px;
+		padding-right: 50px;
+		padding-left: 0px;
+		text-align: right;
+		font-size: 13px;
+		display: block;
+		float: center;
+	}
 
-li{
-	margin: auto;
-	float: center;
-	padding-right: 25px;
-	padding-left: 25px;
-	margin: auto;
-	line-height: 2em;
-}
+	li{
+		margin: auto;
+		float: center;
+		padding-right: 25px;
+		padding-left: 25px;
+		margin: auto;
+		line-height: 2em;
+		display: block;
+	}
 
-#logo{
-	position: absolute;
-	top: 0;
-	bottom: 400px;
-	left: 0;
-	right: 0;
-	margin: auto;
-	width: 15%;
+	#logo{
+		display: block;
+		width: 20%;
+		margin-top:;
 
-}
-
-
+	}
 
 
 }
@@ -453,7 +448,7 @@ li{
 
 #logo{
 	float: left;
-
+	margin-top:-20px;
 	width: 22%;
 
 }
@@ -534,7 +529,7 @@ li{
 
 
 #logo{
-	
+
 	width: 34%;
 
 
