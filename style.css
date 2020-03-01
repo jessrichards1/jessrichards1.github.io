@@ -899,6 +899,11 @@ nav.mobile ul li a{
 	font-weight: 700;
   font-size: 20px;
 }
+nav.mobile ul li a:hover{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+  font-size: 20px;
+}
 }
 
 
