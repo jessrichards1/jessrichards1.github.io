@@ -830,10 +830,59 @@ h3{
 	font-size: 20px;
 }
 
+
 #introText{
-	font-size: 16px;
+	font-size: 14px;
+	line-height: 2em;
+
+}
+
+#introText2{
+	font-size: 14px;
 	line-height: 2em;
 }
+
+.textColumn3{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 2em;
+	color: #001533;
+	-webkit-columns: 2 400px;
+		 -moz-columns: 2 400px;
+					columns: 2 400px;
+					-webkit-column-gap: 50px;
+						 -moz-columns-gap: 50px;
+									column-gap: : 50px;
+}
+
+.textColumn1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 2em;
+	color: #001533;
+	-webkit-columns: 2 400px;
+		 -moz-columns: 2 400px;
+					columns: 2 400px;
+					-webkit-column-gap: 10px;
+						 -moz-columns-gap: 10px;
+									column-gap: : 10px;
+}
+
+.textColumn2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 2em;
+	color: #001533;
+	-webkit-columns: 2 400px;
+		 -moz-columns: 2 400px;
+					columns: 2 400px;
+					-webkit-column-gap: 50px;
+						 -moz-columns-gap: 50px;
+									column-gap: : 50px;
+}
+
+
+
 .flex{
 	font-size: 14px;
 }
@@ -891,26 +940,7 @@ nav.mobile ul li a:hover{
 
 	}
 
-	.textColumn3{
-		font-family: 'Roboto', sans-serif;
-		font-size: 12px;
-		line-height: 2em;
-		color: #001533;
-}
 
-.textColumn2{
-	font-family: 'Roboto', sans-serif;
-	font-size: 12px;
-	line-height: 2em;
-	color: #001533;
-}
-
-.textColumn1{
-font-family: 'Roboto', sans-serif;
-font-size: 12px;
-line-height: 2em;
-color: #001533;
-}
 
 	.mobileMenuButton{
 		font-family: 'Roboto', sans-serif;
