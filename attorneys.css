@@ -76,13 +76,6 @@ html, body {
 
 	}
 
-	#LinkedInTwo{
-		display: block;
-	  margin-left: auto;
-	  margin-right: auto;
-		width: 5%;
-		padding-top: 50px;
-	}
 
 
 .desktopnav{
@@ -611,6 +604,16 @@ nav.mobile ul li a:hover{
 	@media screen and (max-width: 800px) {
 
 
+		#LinkedInTwo{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 80px;
+			padding-top: 50px;
+			padding-right: 30px;
+		}
+
+
 .blue-column{
 	margin-top: -20px;
 }
@@ -855,7 +858,7 @@ nav.mobile ul li a:hover{
 	#logo{
 		display: block;
 		margin-left: 30px;
-		padding-top:60px;
+		padding-top:55px;
 		width: 350px;
 
 	}
@@ -882,7 +885,14 @@ nav.mobile ul li a:hover{
 
 @media screen and (max-width: 500px) {
 
-
+	#LinkedInTwo{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60px;
+		padding-top: 50px;
+		padding-right: 30px;
+	}
 
 		#logo{
 			display: block;
@@ -944,12 +954,54 @@ nav.mobile ul li a:hover{
 
 @media screen and (max-width: 400px) {
 
+	#LinkedInTwo{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 20%;
+		padding-top: 50px;
+		padding-right: 30px;
+	}
+
+
 	#logo{
 		display: block;
-		margin-left: 30px;
+		margin-left: 10px;
 		padding-top:60px;
-		width: 200px;
+		width: 280px;
 
+	}
+
+	.textColumn3{
+		font-family: 'Roboto', sans-serif;
+		font-size: 12px;
+		line-height: 2em;
+		color: #001533;
+}
+
+.textColumn2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	line-height: 2em;
+	color: #001533;
+}
+
+.textColumn1{
+font-family: 'Roboto', sans-serif;
+font-size: 12px;
+line-height: 2em;
+color: #001533;
+}
+
+	.mobileMenuButton{
+		font-family: 'Roboto', sans-serif;
+		font-weight: 900;
+		color: white;
+		font-size: 25px;
+		text-align: right;
+		margin-right: 30px;
+		margin-top: -50px;
+		display: block;
 	}
 
 
