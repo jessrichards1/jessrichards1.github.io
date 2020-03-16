@@ -195,9 +195,9 @@ h2{
 	font-size: 16px;
 	line-height: 1.7em;
 	color: #001533;
-	-webkit-columns: 2 200px;
-     -moz-columns: 2 200px;
-          columns: 2 200px;
+	-webkit-columns: 2 300px;
+     -moz-columns: 2 300px;
+          columns: 2 300px;
 					-webkit-column-gap: 50px;
 				     -moz-columns-gap: 50px;
 				          column-gap: : 50px;
