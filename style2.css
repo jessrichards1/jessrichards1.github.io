@@ -1,121 +1,141 @@
 html, body {
 		box-sizing: border-box;
 	}
-
-	*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-
+	*{
+		box-sizing: inherit;
+	}
 	html, body, h1, h2, h3, h4, h5, h6{
 		padding: 0;
 		margin: 0;
 	}
 
+	#body{
+		max-width: 1500px;
+		margin:auto;
+
+	}
+	#fullwebsite{
+		max-width: 1500px;
+		margin:auto;
+
+	}
+
+	header{
+		max-height: 250px;
+		background-color: #002e6d;
+	}
 
 
-		#body{
-			max-width: 1500px;
-			margin:auto;
 
-		}
-		#fullwebsite{
-			max-width: 1500px;
-			margin:auto;
 
-		}
-
-		header{
-			max-height: 250px;
-			background-color: #002e6d;
-		}
-
-			#logo{
-				display: block;
-			  margin-left: auto;
-			  margin-right: auto;
-				padding-top:50px;
-			  width: 600px;
-
-			}
-
-			#LinkedIn{
-				width: 4%;
-				float: right;
-				padding-right: 30px;
-			margin-top: -100px;
-
-			}
-
-			#LinkedInTwo{
-				display: block;
-			  margin-left: auto;
-			  margin-right: auto;
-				width: 5%;
-				padding-top: 50px;
-			}
-
-	.desktopnav{
-		color: white;
-		margin-left: auto;
-		margin-right: auto;
-	  text-align: center;
-		font-size: 18px;
+	#logo{
 		display: block;
-		margin-top: 30px;
-		padding-bottom: 50px;
-		padding-top: 5px;
-		margin-right: 20px;
+	  margin-left: auto;
+	  margin-right: auto;
+		padding-top:50px;
+	  width: 600px;
 
 	}
 
-	li{
-		color: white;
-	  font-family: 'Roboto Condensed', sans-serif;
-		font-weight: 700;
-		letter-spacing: .5px;
-		display: inline-block;
-		text-decoration: none;
-		padding-left: 20px;
-		padding-right: 20px;
-
+	#LinkedIn{
+		width: 4%;
+		float: right;
+		padding-right: 30px;
+	margin-top: -100px;
 
 	}
 
-	.desktopnav a{
-		text-decoration: none;
-		color:white;
-		width: 10%;
-	}
-
-	.desktopnav a:hover{
-		color:#1ad1ff;
-		cursor: pointer;
-		text-decoration: none;
-		border-bottom: solid #1ad1ff 1px;
+	#LinkedInTwo{
+		display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+		width: 5%;
+		padding-top: 50px;
 	}
 
 
 
+.desktopnav{
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+  text-align: center;
+	font-size: 18px;
+	display: block;
+	margin-top: 30px;
+	padding-bottom: 50px;
+	padding-top: 5px;
+	margin-right: 20px;
 
 
-#introText a{
-	color:#001533;
-	text-decoration: none;
-	border-bottom: 1px solid #001533;
+
 }
 
-#introText a:hover{
+li{
+	color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	letter-spacing: .5px;
+	display: inline-block;
+	text-decoration: none;
+	padding-left: 20px;
+	padding-right: 20px;
+
+
+}
+
+.desktopnav a{
+	text-decoration: none;
+	color:white;
+	width: 10%;
+}
+
+.desktopnav a:hover{
 	color:#1ad1ff;
-	border-bottom: 1px solid #1ad1ff;
-}
-
-
-li:visited{
+	cursor: pointer;
 	text-decoration: none;
+	border-bottom: solid #1ad1ff 1px;
 }
 
 
+
+
+
+
+#three{
+	line-height: 1.5em;
+	display: flex;
+	margin-top: 40px;
+	width: 200px;
+	padding: 10px;
+	font-weight: 700 ;
+	text-align: center;
+
+	background-color: #002e6d;
+	border: solid white 1px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 1.7em;
+	color: white;
+
+}
+
+#three a{
+	text-decoration: none;
+	color: white;
+
+
+}
+
+#three:hover{
+
+	cursor: pointer;
+	text-decoration: none;
+	background: #1ad1ff !important;
+
+
+
+}
 
 h3{
 	font-family: 'Roboto Condensed', sans-serif;
@@ -150,25 +170,40 @@ h2{
 	font-size: 16px;
 	line-height: 1.7em;
 	color: #001533;
+}
+#introText a{
 
+	color: #001533;
+	text-decoration: underline;
+}
+
+#introText a:hover{
+	color: #1ad1ff ;
+	text-decoration: underline;
 }
 
 #introText2{
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	line-height: 1.7em;
-	padding-left: 60px;
-	padding-right: 30px;
-	padding-bottom: 30px;
-	padding-top: 40px;
 	color: white;
+}
+#introText2 a{
+
+	color: white;
+	text-decoration: underline;
+}
+
+#introText2 a:hover{
+	color: #1ad1ff ;
+	text-decoration: underline;
 }
 
 .textColumn2{
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	line-height: 1.7em;
-	color: white;
+	color: #001533;
 	-webkit-columns: 2 200px;
      -moz-columns: 2 200px;
           columns: 2 200px;
@@ -179,14 +214,13 @@ h2{
 
 .some-page-wrapper {
 max-width: 100%;
-  background-color: #001533;
+
 }
 
 .some-page-wrapper2 {
 max-width: 100%;
-  background-color: #001533;
-}
 
+}
 
 .row {
   display: flex;
@@ -200,22 +234,42 @@ max-width: 100%;
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
-
 }
-
-.double-column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 2
-}
-
 
 .orange-column {
 	padding:70px;
-  background-color: white;
+
 }
 
+.orange-column2 {
+	padding-top:55px;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 70px;
+	background-color: #001533;
+
+}
+
+.blue-column {
+	padding:70px;
+
+}
+
+.blue-column2 {
+	padding:70px;
+
+}
+
+
+.textColumn1 .textColumn2{
+	-webkit-columns: 2 200px;
+     -moz-columns: 2 200px;
+          columns: 2 200px;
+					-webkit-column-gap: 50px;
+				     -moz-columns-gap: 50px;
+				          column-gap: : 50px;
+
+}
 
 .blue-column {
 	justify-content: center;
@@ -224,21 +278,6 @@ max-width: 100%;
   width: 100%;
   height: 100%;
   overflow: hidden;
-	background-color: #001533;
-
-}
-
-#image{
-
-	justify-content: center;
-	position: absolute;
-	top: 93%;
-	  left: 50%;
-	  height: 55%;
-	  width: auto;
-	  -webkit-transform: translate(-50%,-50%);
-	      -ms-transform: translate(-50%,-50%);
-	          transform: translate(-50%,-50%);
 
 }
 
@@ -401,12 +440,12 @@ nav.mobile ul li a:hover{
 
 @media screen and (max-width: 1400px) {
 
-	.desktopnav{
-		margin-right: 20px;
-	}
-	li{
-		font-size: 18px;
-	}
+.desktopnav{
+	margin-right: 20px;
+}
+li{
+	font-size: 18px;
+}
 #two{
 
 	padding-left: 50px;
@@ -430,12 +469,12 @@ nav.mobile ul li a:hover{
 
 	@media screen and (max-width: 1300px) {
 
-		.desktopnav{
-			margin-right: 20px;
-		}
-		li{
-			font-size: 15px;
-		}
+	.desktopnav{
+		margin-right: 20px;
+	}
+	li{
+		font-size: 15px;
+	}
 
 	.flex{
 		font-size: 14px;
@@ -497,8 +536,6 @@ nav.mobile ul li a:hover{
 				}
 
 
-
-
 			}
 
 			@media screen and (max-width: 1000px) {
@@ -521,26 +558,13 @@ nav.mobile ul li a:hover{
 
 
 
-					.orange-column {
-						padding:40px;
-					}
-					.orange-column2 {
-						padding:40px;
-					}
 					}
 
 
 	@media screen and (max-width: 800px) {
 
 
-#image{
-	display:none;
-}
 
-#introText2{
-	margin-top: -10px;
-	padding-bottom: 70px;
-}
 						.row {
 			display: block;
 		}
@@ -623,16 +647,7 @@ nav.mobile ul li a:hover{
 
 
 	#three{
-		line-height: 1.5em;
-		display: block;
-		margin-top: 30px;
-		width: 200px;
-		padding: 10px;
-		font-weight: 700 ;
-		text-align: center;
-		margin-right: auto;
-		margin-left: auto;
-		margin-bottom: 30px;
+
 
 	}
 
@@ -685,6 +700,7 @@ nav.mobile ul li a:hover{
 
 
 @media screen and (max-width: 700px) {
+
 
 	.articles{
 		max-width: 100%;
@@ -792,7 +808,6 @@ nav.mobile ul li a:hover{
 
 }
 
-
 @media screen and (max-width: 500px) {
 
 	#logo{
@@ -802,7 +817,6 @@ nav.mobile ul li a:hover{
 		width: 300px;
 
 	}
-
 
 
 h2{
@@ -855,6 +869,7 @@ nav.mobile ul li a:hover{
 
 @media screen and (max-width: 400px) {
 
+
 	#logo{
 		display: block;
 		margin-left: 30px;
@@ -862,8 +877,6 @@ nav.mobile ul li a:hover{
 		width: 200px;
 
 	}
-
-
 
 .flex{
 	font-size: 14px;

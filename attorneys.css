@@ -29,23 +29,68 @@ html, body {
 	}
 
 
+#button{
+	padding: 10px;
+	background-color: #002e6d ;
+	width: 150px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 1.7em;
+	color: white;
+}
 
+#button a{
+	text-decoration: none;
+	color: white;
+
+
+}
+
+#button:hover{
+
+	cursor: pointer;
+	text-decoration: none;
+	background: #1ad1ff !important;
+
+
+
+}
 
 	#logo{
 		display: block;
 	  margin-left: auto;
 	  margin-right: auto;
-		padding-top:65px;
-	  width: 450px;
+		padding-top:50px;
+	  width: 600px;
 
 	}
+
+	#LinkedIn{
+		width: 4%;
+		float: right;
+		padding-right: 30px;
+	margin-top: -100px;
+
+	}
+
+	#LinkedInTwo{
+		display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+		width: 5%;
+		padding-top: 50px;
+	}
+
 
 .desktopnav{
 	color: white;
 	margin-left: auto;
 	margin-right: auto;
   text-align: center;
-	font-size: 16.5px;
+	font-size: 18px;
 	display: block;
 	margin-top: 30px;
 	padding-bottom: 50px;
@@ -155,13 +200,7 @@ li{
 }
 
 
-#introText span{
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	font-weight: 400;
-	font-style: italic;
 
-}
 
 
 #introText a:hover{
@@ -180,6 +219,7 @@ h3{
 	font-size: 30px;
 	font-weight: 400;
 	color: #002e6d;
+
 }
 
 
@@ -188,6 +228,7 @@ h2{
   font-size: 30px;
 	font-weight: 400;
 	color: #002e6d;
+		padding-bottom: 5px;
 }
 
 .textColumn1{
@@ -442,12 +483,12 @@ nav.mobile ul li a:hover{
 
 @media screen and (max-width: 1400px) {
 
-.desktopnav{
-	margin-right: 20px;
-}
-li{
-	font-size: 15px;
-}
+	.desktopnav{
+		margin-right: 20px;
+	}
+	li{
+		font-size: 18px;
+	}
 #two{
 
 	padding-left: 50px;
@@ -471,26 +512,26 @@ li{
 
 	@media screen and (max-width: 1300px) {
 
-	.desktopnav{
-		margin-right: 20px;
-	}
-	li{
-		font-size: 13px;
-	}
-
-	.flex{
-		font-size: 14px;
-	}
-
-	h4{
-		font-size: 18px;
-	}
-
-	.articleInfo{
-		font-size: 14px;
-	}
-
+		.desktopnav{
+			margin-right: 20px;
 		}
+		li{
+			font-size: 15px;
+		}
+
+		.flex{
+			font-size: 14px;
+		}
+
+		h4{
+			font-size: 18px;
+		}
+
+		.articleInfo{
+			font-size: 14px;
+		}
+
+			}
 
 		@media screen and (max-width: 1200px) {
 
@@ -505,15 +546,15 @@ li{
 				  font-size: 30px;
 					text-align: right;
 					margin-right: 50px;
-					margin-top: -45px;
+					margin-top: -55px;
 					display: block;
 				}
 
 				#logo{
 					display: block;
-				  margin-left: 50px;
-					padding-top:60px;
-				  width: 300px;
+				  margin-left: 30px;
+					padding-top:45px;
+				  width: 500px;
 
 				}
 
@@ -532,6 +573,11 @@ li{
 					padding-right: 30px;
 
 				}
+
+				#LinkedIn{
+					display: none;
+				}
+
 
 
 			}
@@ -556,51 +602,10 @@ li{
 
 
 
-					.flexArticle{
-
-						margin: 10px;
-
-					}
-					.borderTwo{
-							margin-top: 10px;
-
-						}
-
-						.flex{
-							font-size: 12px;
-						}
-						#two{
-
-							padding-left: 15px;
-							padding-right: 15px;
-								padding-top: 60px;
-
-						}
-
-					#three{
-						margin-top: 70px;
-					}
-					#one{
-						margin-top:5px;
-					}
-
 					h4{
 						font-size: 16px;
 					}
 
-					.articleInfo{
-						font-size: 12px;
-					}
-					.orange-column {
-						padding:40px;
-					}
-					.orange-column2 {
-						padding:40px;
-					}
-					.button{
-						width:13%;
-					}
-					}
 
 
 	@media screen and (max-width: 800px) {
@@ -821,10 +826,12 @@ li{
 
 	#logo{
 		display: block;
-		margin-left: 30px;
+		margin-left: 50px;
 		padding-top:60px;
-		width: 250px;
-}
+		width: 400px;
+
+	}
+
 
 #image{
 	margin-top: 100PX;
@@ -849,8 +856,10 @@ li{
 		display: block;
 		margin-left: 30px;
 		padding-top:60px;
-		width: 250px;
-}
+		width: 350px;
+
+	}
+
 
 #image{
 	margin-top: 100PX;
@@ -872,6 +881,16 @@ li{
 }
 
 @media screen and (max-width: 500px) {
+
+
+
+		#logo{
+			display: block;
+			margin-left: 30px;
+			padding-top:60px;
+			width: 300px;
+
+		}
 
 h2{
 	font-size: 20px;
@@ -924,6 +943,16 @@ nav.mobile ul li a:hover{
 
 
 @media screen and (max-width: 400px) {
+
+	#logo{
+		display: block;
+		margin-left: 30px;
+		padding-top:60px;
+		width: 200px;
+
+	}
+
+
 
 .flex{
 	font-size: 14px;
