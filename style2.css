@@ -91,8 +91,25 @@ li{
 }
 
 
+.image{
+
+	height: 300px;
+	max-width: 1500px;
+	overflow: hidden;
+			position: relative;
 
 
+}
+
+#image{
+
+max-width: 1500px;
+
+	  overflow: hidden;
+
+
+
+}
 
 
 #three{
@@ -243,13 +260,21 @@ max-width: 100%;
 
 }
 
-.blue-column {
-	padding:70px;
 
-}
 
 .blue-column2 {
 	padding:70px;
+
+}
+.blue-column {
+	justify-content: center;
+	display: flex;
+	position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+	background-color: #001533;
+		padding:70px;
 
 }
 
@@ -481,9 +506,17 @@ li{
 		font-size: 14px;
 	}
 
+
+	#image{
+
+	}
+
 		}
 
 		@media screen and (max-width: 1200px) {
+
+
+
 
 			.desktopnav{
 					display: none;
@@ -528,6 +561,14 @@ li{
 					display: none;
 				}
 
+				#image{
+
+			margin-top: -30px;
+
+
+
+				}
+
 
 			}
 
@@ -544,6 +585,9 @@ li{
 				#one{
 					margin-top: -5px;
 				}
+
+
+
 
 				}
 
@@ -580,14 +624,7 @@ li{
 			padding:40px;
 		}
 
-		#image{
-			margin-top: 190PX;
-			margin-bottom: -400px;
-			bottom: 0px;
-			position: relative;
-			width: 100%
 
-		}
 
 	.blue-column span{
 		display: none;
@@ -664,13 +701,7 @@ li{
 
 	@media screen and (max-width: 700px) {
 
-							#image{
-								margin-top: 160PX;
-								margin-bottom: -300px;
-								bottom: 0px;
-								position: relative;
-								width: 100%;
-							}
+
 
 
 
@@ -748,6 +779,13 @@ li{
 			margin-bottom: 50px;
 		}
 
+		#image{
+			margin-top: 10px;
+			bottom: 0px;
+			position: relative;
+			width: 100%;
+		}
+
 
 }
 
@@ -763,13 +801,7 @@ li{
 	}
 
 
-#image{
-	margin-top: 100PX;
-	margin-bottom: -120px;
-	bottom: 0px;
-	position: relative;
-	width: 100%;
-}
+
 
 .mobileMenuButton{
 	padding-top: 15px;
@@ -789,13 +821,7 @@ li{
 		width: 350px;
 
 	}
-#image{
-	margin-top: 100PX;
-	margin-bottom: -200px;
-	bottom: 0px;
-	position: relative;
-	width: 100%;
-}
+
 
 .mobileMenuButton{
 	padding-top: 5px;
@@ -804,6 +830,13 @@ li{
 .orange-column2{
 
 	margin-bottom: 50px;
+}
+
+#image{
+	margin-top: 30px;
+	bottom: 0px;
+	position: relative;
+	width: 100%;
 }
 
 }
@@ -923,10 +956,27 @@ nav.mobile ul li a:hover{
 	font-weight: 700;
   font-size: 20px;
 }
+
+#image{
+	margin-top: 90px;
+	bottom: 0px;
+	position: relative;
+	width: 100%;
+}
+
+
 }
 
 
 @media screen and (max-width: 400px) {
+
+
+	#image{
+		margin-top: 110px;
+		bottom: 0px;
+		position: relative;
+		width: 100%;
+	}
 
 	#LinkedInTwo{
 		display: block;
@@ -946,7 +996,7 @@ nav.mobile ul li a:hover{
 
 		}
 
-	
+
 		.mobileMenuButton{
 			font-family: 'Roboto', sans-serif;
 			font-weight: 900;
@@ -997,12 +1047,6 @@ nav.mobile ul li a:hover{
 
 }
 
-#image{
-	margin-top: 80PX;
-	margin-bottom: -120px;
-	bottom: 0px;
-	position: relative;
-	width: 100%;
-}
+
 
 }
