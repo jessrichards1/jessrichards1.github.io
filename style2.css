@@ -62,7 +62,7 @@ html, body {
 }
 
 .navOne{
-	height: 325px;
+	height: 400px;
 	background-color: #002e6d;
 	width: 80%;
 }
@@ -111,14 +111,14 @@ html, body {
 }
 
 
-	#logo{
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		padding-top:50px;
-		width: 350px;
+#logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top:50px;
+	width: 400px;
 
-	}
+}
 
 	#LinkedIn{
 width:15px;
@@ -186,7 +186,7 @@ h1{
   text-align: center;
 	font-size: 15px;
 	display: block;
-	margin-top: 50px;
+	margin-top: 35px;
 	padding-bottom: 50px;
 	padding-top: 5px;
 	margin-right: 20px;
@@ -634,6 +634,14 @@ nav.mobile ul li a:hover{
 								margin-top: -115px;
 							}
 
+							#logo{
+								display: block;
+								float: left;
+								margin-top:40px;
+								margin-left: 20px;
+								width: 300px;
+
+							}
 
 
 
@@ -745,6 +753,7 @@ nav.mobile ul li a:hover{
 									margin-right: 40px;
 								}
 
+
 								#infoOneImage{
 									height: 200px;
 
@@ -776,7 +785,6 @@ nav.mobile ul li a:hover{
 																		margin-right: 50px;
 																		margin-top: -140px;
 																	}
-
 
 
 																	#logo{
@@ -893,10 +901,11 @@ nav.mobile ul li a:hover{
 																		#logo{
 																			display: block;
 																			float: left;
-																			margin-top:10px;
+																			margin-top:-9px;
 																			margin-left: 40px;
 																			width: 225px;
 																		}
+
 
 
 										li{
@@ -925,22 +934,23 @@ nav.mobile ul li a:hover{
 
 										.officeInfo{
 											font-size: 12px;
-											margin: 0 auto;
-											display: block;
-											margin-left: 30%;
-											float: none;
-											margin-top: 50px;
+											margin-left: 10px;
+											margin-right: 10px;
+
 
 
 										}
 
 										.registerButton{
-											margin-left: 25%;
 											width: 150px;
 											padding-left: 10px;
 											padding-right: 10px;
 											font-size: 12px;
-											float: none;
+											float: right;
+											margin-top: 70px;
+											margin-bottom: 30px;
+											margin-right: 10px;
+
 										}
 
 										#infoOneImage{
@@ -977,9 +987,9 @@ nav.mobile ul li a:hover{
 																			#logo{
 																				display: block;
 																				float: left;
-																				margin-top:-10px;
-																				margin-left: 40px;
-																				width: 175px;
+																				margin-top:-15px;
+																				margin-left: 25px;
+																				width: 160px;
 																			}
 
 
@@ -1003,26 +1013,26 @@ nav.mobile ul li a:hover{
 											}
 
 
-
-																					.officeInfo{
-																						font-size: 12px;
-																						margin: 0 auto;
-																						display: block;
-																						margin-left: 25%;
-																						float: none;
-																						margin-top: 50px;
+											.officeInfo{
+												font-size: 10px;
+												margin-left: 0px;
+												margin-right: 5px;
 
 
-																					}
 
-																					.registerButton{
-																						margin-left: 20%;
-																						width: 150px;
-																						padding-left: 10px;
-																						padding-right: 10px;
-																						font-size: 12px;
-																						float: none;
-																					}
+											}
+
+											.registerButton{
+												width: 100px;
+												padding-left: 10px;
+												padding-right: 10px;
+												font-size: 10px;
+												float: right;
+												margin-top: 50px;
+												margin-bottom: 30px;
+												margin-right: 10px;
+
+											}
 
 											#infoOneImage{
 												height: 200px;

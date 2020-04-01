@@ -36,7 +36,7 @@ html, body {
 }
 
 .navOne{
-	height: 325px;
+	height: 400px;
 	background-color: #002e6d;
 	width: 80%;
 }
@@ -90,7 +90,7 @@ html, body {
 		margin-left: auto;
 		margin-right: auto;
 		padding-top:50px;
-		width: 350px;
+		width: 400px;
 
 	}
 
@@ -153,29 +153,35 @@ width:15px;
 
 
 .infoTwo{
-width: 50%;
-height: auto;
-overflow:hidden;
-object-fit: cover;
-display: flex;
+	justify-content: center;
+	display: flex;
+	position: relative;
+  width: 50%;
+  height: auto;
+  overflow: hidden;
 }
 
 .infoFour{
-width: 50%;
-height: auto;
-overflow:hidden;
-object-fit: cover;
-display: flex;
+	justify-content: center;
+	display: flex;
+	position: relative;
+  width: 50%;
+  height: auto;
+  overflow: hidden;
 }
 
 
 
 #infoOneImage{
-width: 110%;
-height: auto;
-margin-bottom: 0;
-margin-top: 0;
-object-fit: cover;
+	justify-content: center;
+	position: absolute;
+	  right: 50%;
+	  bottom: 50%;
+	  height: auto;
+	  width: 200%;
+	  -webkit-transform: translate(50%,50%);
+	      -ms-transform: translate(50%,50%);
+	          transform: translate(50%,50%);
 
 }
 
@@ -195,7 +201,7 @@ h1{
   text-align: center;
 	font-size: 15px;
 	display: block;
-	margin-top: 50px;
+	margin-top: 35px;
 	padding-bottom: 50px;
 	padding-top: 5px;
 	margin-right: 20px;
@@ -369,11 +375,7 @@ nav.mobile ul li a:hover{
 		margin-bottom: 10px;
 	}
 
-	#infoOneImage{
-	width: 110%;
-	margin-bottom: 0;
 
-	}
 
 	}
 
@@ -636,6 +638,15 @@ nav.mobile ul li a:hover{
 							}
 
 
+							#logo{
+								display: block;
+								float: left;
+								margin-top:40px;
+								margin-left: 20px;
+								width: 300px;
+
+							}
+
 
 
 							li{
@@ -670,15 +681,33 @@ nav.mobile ul li a:hover{
 							}
 
 
-
 							.infoOne{
 								font-size: 16px;
 								width: 100%;
 							}
 
 							.infoTwo{
-								font-size: 16px;
-								width: 100%;
+							 justify-content: center;
+							 display: flex;
+							 flex-wrap: wrap;
+							 position: relative;
+								width: auto;
+								height: auto;
+								overflow: hidden;
+							}
+
+							#infoOneImage{
+								justify-content: center;
+								position: relative;
+								object-fit: cover;
+								  right: 100%;
+									bottom: 100%;
+								  height: 200px;
+								  width: 100%;
+								  -webkit-transform: translate(100%,100%);
+								      -ms-transform: translate(100%,100%);
+								          transform: translate(100%,100%);
+
 							}
 
 							.infoThree{
@@ -797,6 +826,7 @@ nav.mobile ul li a:hover{
 																	}
 
 
+
 									li{
 										padding-left: 10px;
 										padding-right: 10px;
@@ -903,7 +933,7 @@ nav.mobile ul li a:hover{
 																		#logo{
 																			display: block;
 																			float: left;
-																			margin-top:10px;
+																			margin-top:-9px;
 																			margin-left: 40px;
 																			width: 225px;
 																		}
@@ -931,22 +961,23 @@ nav.mobile ul li a:hover{
 
 										.officeInfo{
 											font-size: 12px;
-											margin: 0 auto;
-											display: block;
-											margin-left: 25%;
-											float: none;
-											margin-top: 50px;
+											margin-left: 10px;
+											margin-right: 10px;
+
 
 
 										}
 
 										.registerButton{
-											margin-left: 20%;
 											width: 150px;
 											padding-left: 10px;
 											padding-right: 10px;
 											font-size: 12px;
-											float: none;
+											float: right;
+											margin-top: 70px;
+											margin-bottom: 30px;
+											margin-right: 10px;
+
 										}
 
 
@@ -984,9 +1015,9 @@ nav.mobile ul li a:hover{
 																			#logo{
 																				display: block;
 																				float: left;
-																				margin-top:-10px;
-																				margin-left: 40px;
-																				width: 175px;
+																				margin-top:-15px;
+																				margin-left: 25px;
+																				width: 160px;
 																			}
 
 
@@ -1011,23 +1042,24 @@ nav.mobile ul li a:hover{
 
 
 											.officeInfo{
-												font-size: 12px;
-												margin: 0 auto;
-												display: block;
-												margin-left: 25%;
-												float: none;
-												margin-top: 50px;
+												font-size: 10px;
+												margin-left: 0px;
+												margin-right: 5px;
+
 
 
 											}
 
 											.registerButton{
-												margin-left: 20%;
-												width: 150px;
+												width: 100px;
 												padding-left: 10px;
 												padding-right: 10px;
-												font-size: 12px;
-												float: none;
+												font-size: 10px;
+												float: right;
+												margin-top: 50px;
+												margin-bottom: 30px;
+												margin-right: 10px;
+
 											}
 
 											#infoOneImage{
