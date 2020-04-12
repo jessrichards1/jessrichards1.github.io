@@ -9,6 +9,68 @@ html, body {
 		margin: 0;
 	}
 
+	.contact-form{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+
+	}
+input{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	padding-left:5px;
+	border-radius: 5px;
+	border: solid 1px #002e6d;
+
+
+}
+
+textarea{
+	width: 100%;
+	height: 200px;
+	margin-bottom: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	padding-left:5px;
+	border-radius: 5px;
+	border: solid 1px #002e6d;
+	padding-top: 10px;
+
+
+}
+
+button{
+	background-color: #002e6d;
+	border-radius: 5px;
+	border: solid 1px #002e6d;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	color: white;
+	width: 100px;
+	height: 40px;
+}
+
+button a{
+	background-color: #002e6d;
+	border-radius: 5px;
+	border: solid 1px #002e6d;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	color: white;
+	width: 100px;
+	height: 40px;
+}
+
+button:hover{
+	background-color: #1ad1ff;
+	color:#002e6d;
+
+}
+
 	#body{
 		max-width: 1500px;
 		margin:auto;
@@ -26,7 +88,6 @@ html, body {
 		max-height: 250px;
 		background-color: #002e6d;
 	}
-
 
 
 .navFlex{
@@ -57,12 +118,6 @@ html, body {
 	margin-bottom: 40px;
 }
 
-#lineOne{
-	border: 1px solid white;
-	margin: 0px;
-	padding: 0px;
-}
-
 .registerButton{
 	width: 200px;
 	padding-left: 10px;
@@ -91,15 +146,45 @@ html, body {
 
 }
 
+#vCard{
+	margin-top: 15px;
+	width: 175px;
+	height: 50px;
+	padding-top: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	background-color: #002e6d;
+	border: solid white 1px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+	color: white;
+	font-weight: 700 ;
+	margin-bottom: auto;
+}
 
-	#logo{
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		padding-top:50px;
-		width: 400px;
+#vCard a{
+	text-decoration: none;
+	color: white;
+}
 
-	}
+#vCard:hover{
+	cursor: pointer;
+	text-decoration: none;
+	background-color: #1ad1ff;
+
+}
+
+
+#logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top:50px;
+	width: 400px;
+
+}
 
 	#LinkedIn{
 width:15px;
@@ -112,39 +197,14 @@ width:15px;
 	max-width: 1500px;
 }
 
-.openingInfoTwo{
-	display: flex;
-	flex-direction: row;
-	align-items: stretch;
-	max-width: 1500px;
-}
-
 .infoOne{
 	background-color: #dfe3ed;
-	width: 50%;
+	width: 30%;
 	flex-grow: 1;
 	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 2em;
 	color: #001533;
-	padding-top: 30px;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-bottom: 30px;
-}
-
-.infoThree{
-	background-color: #dfe3ed;
-	width: 50%;
-	flex-grow: 1;
-	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
-	line-height: 2em;
-	color: #001533;
-	padding-top: 30px;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-bottom: 30px;
 }
 
 .infoOne a{
@@ -157,40 +217,58 @@ width:15px;
 
 }
 
+.infoTwo a{
+	color: #001533;
+
+}
+
+.infoTwo a:hover{
+	color: #1ad1ff;
+
+}
+
+#infoPadding{
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 30px;
+
+}
 
 
 .infoTwo{
-	justify-content: center;
-	display: flex;
-	position: relative;
-  width: 50%;
-  height: auto;
-  overflow: hidden;
-}
-
-.infoFour{
-	justify-content: center;
-	display: flex;
-	position: relative;
-  width: 50%;
-  height: auto;
-  overflow: hidden;
+	flex-grow: 2;
+	background-color: #ededed;
+	width: 70%;
+	padding: 50px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	line-height: 2em;
+	color: #001533;
 }
 
 
 
 #infoOneImage{
-	justify-content: center;
-	position: absolute;
-	  right: 50%;
-	  bottom: 50%;
-	  height: auto;
-	  width: 200%;
-	  -webkit-transform: translate(50%,50%);
-	      -ms-transform: translate(50%,50%);
-	          transform: translate(50%,50%);
+	width:120%;
+	object-fit: cover;
+	display: block;
+	overflow: hidden;
+}
+
+hr{
+	border-top: 2px solid #002e6d;
+	margin-left: 50px;
+	margin-right: 50px;
 
 }
+
+#lineOne{
+	border: 1px solid white;
+	margin: 0px;
+	padding: 0px;
+}
+
 
 
 h1{
@@ -198,6 +276,12 @@ h1{
 	font-size: 30px;
 	font-weight: 400;
 	color: #001533;
+	padding-bottom: 20PX;
+	text-align: left;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
 }
 
 .desktopnav{
@@ -243,6 +327,10 @@ li{
 	border-bottom: solid #1ad1ff 1px;
 }
 
+.mail{
+	padding-right: 10px;
+
+}
 
 
 
@@ -386,7 +474,10 @@ nav.mobile ul li a:hover{
 		margin-bottom: 10px;
 	}
 
+	#infoOneImage{
+		width:120%;
 
+	}
 
 	}
 	@media screen and (max-width: 1370px) {
@@ -416,6 +507,10 @@ nav.mobile ul li a:hover{
 		.navTwo{
 			padding-left: 20px;
 			padding-right: 20px;
+
+		}
+		#infoOneImage{
+			width:130%;
 
 		}
 
@@ -470,6 +565,10 @@ nav.mobile ul li a:hover{
 
 			}
 
+			#infoOneImage{
+				width:130%;
+
+			}
 
 
 			}
@@ -526,6 +625,7 @@ nav.mobile ul li a:hover{
 
 				}
 
+
 				.officeInfo{
 					font-size: 12px;
 					margin-top: 60px;
@@ -536,6 +636,11 @@ nav.mobile ul li a:hover{
 					padding-left: 10px;
 					padding-right: 10px;
 					font-size: 12px;
+
+				}
+
+				#infoOneImage{
+					width:130%;
 
 				}
 
@@ -562,15 +667,14 @@ nav.mobile ul li a:hover{
 					}
 
 
-					.navTwo{
-						padding-left: 20px;
-						padding-right: 25px;
-
+					li{
+						padding-left: 10px;
+						padding-right: 10px;
 					}
 
 					.navTwo{
-						padding-left: 30px;
-						padding-right: 10px;
+						padding-left: 20px;
+						padding-right: 25px;
 
 					}
 
@@ -586,6 +690,26 @@ nav.mobile ul li a:hover{
 						padding-right: 10px;
 						font-size: 11px;
 
+					}
+
+					#infoOneImage{
+						width:130%;
+
+					}
+
+					.contact-form{
+						display: block;
+						margin-left: auto;
+						margin-right: auto;
+						width: 500px;
+
+					}
+					h1{
+
+						display: block;
+						margin-left: auto;
+						margin-right: auto;
+						width: 500px;
 					}
 
 
@@ -644,7 +768,6 @@ nav.mobile ul li a:hover{
 						}
 
 
-
 						.infoOne{
 							font-size: 16px;
 						}
@@ -653,14 +776,29 @@ nav.mobile ul li a:hover{
 							font-size: 16px;
 						}
 
-						.infoThree{
-							font-size: 16px;
-						}
-
-
 						h1{
 							font-size: 20px;
+
+								display: block;
+								margin-left: auto;
+								margin-right: auto;
+								width: 450px;
+							}
+
+
+
+						.contact-form{
+							display: block;
+							margin-left: auto;
+							margin-right: auto;
+							width: 450px;
+
 						}
+						.infoOne{
+							font-size: 14px;
+
+						}
+
 
 
 						}
@@ -668,39 +806,39 @@ nav.mobile ul li a:hover{
 						@media screen and (max-width: 800px) {
 
 
+							.mobileMenuButton{
+								font-size: 30px;
+								margin-right: 265px;
 
-														.mobileMenuButton{
-															font-size: 30px;
-															margin-right: 265px;
+							}
 
-														}
+							#logo{
+								display: block;
+								float: left;
+								margin-top:80px;
+								margin-left: 30px;
+								width: 275px;
 
-														#logo{
-															display: block;
-															float: left;
-															margin-top:80px;
-															margin-left: 30px;
-															width: 275px;
-
-														}
-
+							}
 
 
-														li{
-															padding-left: 10px;
-															padding-right: 10px;
-														}
 
-														.navTwo{
-															padding-left: 30px;
-															padding-right: 30px;
-															width: 30%;
+							li{
+								padding-left: 10px;
+								padding-right: 10px;
+							}
+
+							.navTwo{
+								padding-left: 30px;
+								padding-right: 30px;
+								width: 30%;
 
 
-														}
+							}
 
 							.navOne{
 								width: 70%;
+
 							}
 
 
@@ -717,6 +855,17 @@ nav.mobile ul li a:hover{
 
 							}
 
+							#infoOneImage{
+								display: none;
+
+							}
+
+							.openingInfo{
+								display: flex;
+								flex-direction: wrap-reverse;
+								align-items: stretch;
+								max-width: 1500px;
+							}
 
 							.infoOne{
 								font-size: 16px;
@@ -724,36 +873,8 @@ nav.mobile ul li a:hover{
 							}
 
 							.infoTwo{
-							 justify-content: center;
-							 display: flex;
-							 flex-wrap: wrap;
-							 position: relative;
-								width: auto;
-								height: auto;
-								overflow: hidden;
-							}
-
-							#infoOneImage{
-								justify-content: center;
-								position: relative;
-								object-fit: cover;
-								  right: 100%;
-									bottom: 100%;
-								  height: 200px;
-								  width: 100%;
-								  -webkit-transform: translate(100%,100%);
-								      -ms-transform: translate(100%,100%);
-								          transform: translate(100%,100%);
-
-							}
-
-							.infoThree{
 								font-size: 16px;
-								width: 100%
-							}
-
-							.infoFour{
-								display: none;
+								width: 100%;
 							}
 
 							h1{
@@ -768,19 +889,18 @@ nav.mobile ul li a:hover{
 							@media screen and (max-width: 700px) {
 
 
+								.mobileMenuButton{
+									font-size: 30px;
+									margin-right: 50px;
+									margin-top: -140px;
+								}
 
-																.mobileMenuButton{
-																	font-size: 30px;
-																	margin-right: 50px;
-																	margin-top: -140px;
-																}
-
-																#logo{
-																	display: block;
-																	float: left;
-																	margin-top:10px;
-																	margin-left: 50px;
-																}
+								#logo{
+									display: block;
+									float: left;
+									margin-top:10px;
+									margin-left: 50px;
+								}
 
 
 								li{
@@ -819,7 +939,10 @@ nav.mobile ul li a:hover{
 									margin-right: 40px;
 								}
 
+								#infoOneImage{
+									height: 200px;
 
+								}
 
 								.infoOne{
 									font-size: 16px;
@@ -829,11 +952,6 @@ nav.mobile ul li a:hover{
 								.infoTwo{
 									font-size: 16px;
 									width: 100%;
-								}
-
-								.infoThree{
-									font-size: 16px;
-									width: 100%
 								}
 
 								h1{
@@ -862,7 +980,6 @@ nav.mobile ul li a:hover{
 																		margin-left: 50px;
 																		width: 250px;
 																	}
-
 
 
 									li{
@@ -910,6 +1027,10 @@ nav.mobile ul li a:hover{
 
 									}
 
+									#infoOneImage{
+										height: 200px;
+
+									}
 
 									.infoOne{
 										font-size: 16px;
@@ -921,13 +1042,12 @@ nav.mobile ul li a:hover{
 										width: 100%;
 									}
 
-									.infoThree{
-										font-size: 16px;
-										width: 100%
-									}
-
 									h1{
 										font-size: 20px;
+										display: block;
+										margin-left: auto;
+										margin-right: auto;
+										width: 375px;
 									}
 
 									nav.mobile ul li{
@@ -953,6 +1073,16 @@ nav.mobile ul li a:hover{
 									#LinkedIn{
 								width:20px;
 									}
+
+									.contact-form{
+										display: block;
+										margin-left: auto;
+										margin-right: auto;
+										width: 375px;
+
+									}
+
+
 
 
 
@@ -1018,6 +1148,10 @@ nav.mobile ul li a:hover{
 
 										}
 
+										#infoOneImage{
+											height: 200px;
+
+										}
 
 										.infoOne{
 											font-size: 16px;
@@ -1029,13 +1163,20 @@ nav.mobile ul li a:hover{
 											width: 100%;
 										}
 
-										.infoThree{
-											font-size: 16px;
-											width: 100%
-										}
-
 										h1{
 											font-size: 20px;
+											display: block;
+											margin-left: auto;
+											margin-right: auto;
+											width: 300px;
+										}
+
+										.contact-form{
+											display: block;
+											margin-left: auto;
+											margin-right: auto;
+											width: 300px;
+
 										}
 
 										}
@@ -1115,13 +1256,20 @@ nav.mobile ul li a:hover{
 												width: 100%;
 											}
 
-											.infoThree{
-												font-size: 16px;
-												width: 100%
-											}
-
 											h1{
 												font-size: 20px;
+												display: block;
+												margin-left: auto;
+												margin-right: auto;
+												width: 200px
+											}
+
+											.contact-form{
+												display: block;
+												margin-left: auto;
+												margin-right: auto;
+												width: 230px;
+
 											}
 
 											}

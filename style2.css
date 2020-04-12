@@ -78,7 +78,7 @@ html, body {
 	font-size: 14px;
 	line-height: 1em;
 	color: white;
-	margin-top: 40px;
+	margin-top: 70px;
 	margin-bottom: 40px;
 }
 
@@ -97,6 +97,11 @@ html, body {
 	margin-bottom: 40px;
 }
 
+#lineOne{
+	border: 1px solid white;
+	margin: 0px;
+	padding: 0px;
+}
 
 .registerButton a{
 	text-decoration: none;
@@ -238,7 +243,7 @@ li{
 
 .footerInfo{
 	font-family: 'Roboto', sans-serif;
-	font-size: 10px;
+	font-size: 14px;
 	line-height: 1.7em;
   text-align: center;
 	color: white;
@@ -329,13 +334,19 @@ nav.mobile ul li a:hover{
 
 }
 
+@media screen and (max-width: 1450px) {
 
+	.desktopnav{
+		font-size: 14px;
+	}
+
+}
 
 @media screen and (max-width: 1400px) {
 
 	.desktopnav{
 		font-size: 14px;
-		margin-top: 50px;
+
 		padding-bottom: 50px;
 		padding-top: 5px;
 		margin-right: 20px;
@@ -349,8 +360,8 @@ nav.mobile ul li a:hover{
 
 
 	.navTwo{
-		padding-left: 30px;
-		padding-right: 20px;
+		padding-left: 35px;
+		padding-right: 50px;
 
 	}
 
@@ -365,13 +376,20 @@ nav.mobile ul li a:hover{
 
 	}
 
+	@media screen and (max-width: 1370px) {
+
+		.desktopnav{
+			font-size: 13px;
+		}
+
+
 	}
 
 	@media screen and (max-width: 1300px) {
 
 		.desktopnav{
 			font-size: 12px;
-			margin-top: 50px;
+
 			padding-bottom: 50px;
 			padding-top: 5px;
 			margin-right: 20px;
@@ -384,21 +402,31 @@ nav.mobile ul li a:hover{
 
 		.navTwo{
 			padding-left: 20px;
-			padding-right: 10px;
+			padding-right: 20px;
 
 		}
 
 
 		}
+
+		@media screen and (max-width: 1250px) {
+
+			.desktopnav{
+				font-size: 11px;
+			}
+
+
+		}
+
 
 		@media screen and (max-width: 1200px) {
 
 			.desktopnav{
 				font-size: 11px;
-				margin-top: 50px;
+
 				padding-bottom: 50px;
 				padding-top: 5px;
-				margin-right: 20px;
+				margin-right: 10px;
 			}
 
 			li{
@@ -410,8 +438,8 @@ nav.mobile ul li a:hover{
 
 
 			.navTwo{
-				padding-left: 30px;
-				padding-right: 10px;
+				padding-left: 35px;
+				padding-right: 30px;
 
 
 			}
@@ -419,7 +447,7 @@ nav.mobile ul li a:hover{
 
 			.officeInfo{
 				font-size: 12px;
-				margin-top: 60px;
+
 			}
 
 			.registerButton{
@@ -438,6 +466,16 @@ nav.mobile ul li a:hover{
 
 			}
 
+			@media screen and (max-width: 1170px) {
+
+				.desktopnav{
+					font-size: 10.5px;
+				}
+
+
+			}
+
+
 			@media screen and (max-width: 1100px) {
 
 				.desktopnav{
@@ -453,7 +491,7 @@ nav.mobile ul li a:hover{
 					display: block;
 					position: relative;
 					margin-right: 300px;
-					margin-top: -120px;
+					margin-top: -70px;
 				}
 
 				#LinkedIn{
@@ -463,7 +501,7 @@ nav.mobile ul li a:hover{
 				#logo{
 					display: block;
 					float: left;
-					margin-top:40px;
+					margin-top:50px;
 					margin-left: 50px;
 					width: 350px;
 
@@ -476,15 +514,15 @@ nav.mobile ul li a:hover{
 				}
 
 				.navTwo{
-					padding-left: 30px;
-					padding-right: 10px;
+					padding-left:25px;
+					padding-right: 30px;
 
 				}
 
 
 				.officeInfo{
 					font-size: 12px;
-					margin-top: 60px;
+
 				}
 
 				.registerButton{
@@ -509,13 +547,13 @@ nav.mobile ul li a:hover{
 					.mobileMenuButton{
 
 						margin-right: 250px;
-						margin-top: -120px;
+
 					}
 
 					#logo{
 						display: block;
 						float: left;
-						margin-top:40px;
+						margin-top:50px;
 						margin-left: 50px;
 						width: 350px;
 
@@ -528,15 +566,15 @@ nav.mobile ul li a:hover{
 					}
 
 					.navTwo{
-						padding-left: 30px;
-						padding-right: 10px;
+						padding-left: 20px;
+						padding-right: 25px;
 
 					}
 
 
 					.officeInfo{
 						font-size: 11px;
-						margin-top: 60px;
+
 					}
 
 					.registerButton{
@@ -561,13 +599,13 @@ nav.mobile ul li a:hover{
 						.mobileMenuButton{
 							font-size: 35px;
 							margin-right: 300px;
-							margin-top: -115px;
+
 						}
 
 						#logo{
 							display: block;
 							float: left;
-							margin-top:40px;
+							margin-top:50px;
 							margin-left: 50px;
 							width: 350px;
 
@@ -581,7 +619,7 @@ nav.mobile ul li a:hover{
 
 						.navTwo{
 							padding-left: 40px;
-							padding-right: 10px;
+							padding-right: 40px;
 							width: 30%;
 
 
@@ -594,7 +632,7 @@ nav.mobile ul li a:hover{
 
 						.officeInfo{
 							font-size: 12px;
-							margin-top: 60px;
+
 						}
 
 						.registerButton{
@@ -631,15 +669,15 @@ nav.mobile ul li a:hover{
 							.mobileMenuButton{
 								font-size: 30px;
 								margin-right: 265px;
-								margin-top: -115px;
+
 							}
 
 							#logo{
 								display: block;
 								float: left;
-								margin-top:40px;
-								margin-left: 20px;
-								width: 300px;
+								margin-top:80px;
+								margin-left: 30px;
+								width: 275px;
 
 							}
 
@@ -652,7 +690,7 @@ nav.mobile ul li a:hover{
 
 							.navTwo{
 								padding-left: 30px;
-								padding-right: 10px;
+								padding-right: 30px;
 								width: 30%;
 
 
@@ -665,7 +703,7 @@ nav.mobile ul li a:hover{
 
 							.officeInfo{
 								font-size: 12px;
-								margin-top: 60px;
+
 							}
 
 							.registerButton{
