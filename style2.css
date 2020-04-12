@@ -82,6 +82,10 @@ html, body {
 	margin-bottom: 40px;
 }
 
+.officeInfo a{
+	text-decoration: none;
+}
+
 .registerButton{
 	width: 200px;
 	padding-left: 10px;
