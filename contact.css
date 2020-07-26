@@ -109,6 +109,56 @@ button:hover{
 	width: 20%;
 }
 
+
+ul {
+	 list-style: none;
+	 margin: 0;
+	 padding-left: 0;
+}
+
+li {
+	font-size: 20px;
+ background: #002e6d;
+	 display: block;
+	 float: center;
+	 padding: 1rem;
+	 position: relative;
+	 text-decoration: none;
+ transition-duration: 0.5s;
+}
+
+li a {
+ color: #fff;
+}
+
+
+
+ul li ul {
+
+	 visibility: hidden;
+ opacity: 0;
+ min-width: 5rem;
+	 position: absolute;
+ transition: all 0.5s ease;
+ margin-top: 1rem;
+	 left: 0;
+ display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+ visibility: visible;
+ opacity: 1;
+ display: block;
+}
+
+ul li ul li {
+	 clear: both;
+ width: 110%;
+}
+
+
+
 .officeInfo{
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
@@ -340,7 +390,7 @@ li{
 	width: 50%;
 	padding: 50px;
 	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
+	font-size: 11px;
 	line-height: 2em;
 	color: #001533;
 
@@ -348,8 +398,8 @@ li{
 
 .footerInfo{
 	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-	line-height: 1.7em;
+	font-size: 11px;
+	line-height: 1.3em;
   text-align: center;
 	color: white;
 background-color: #002e6d ;
@@ -399,13 +449,20 @@ display: block;
 color:#002e6d;
 }
 
+nav.mobile ul {
+	margin-top: 25px;
+	margin-left: 30px;
+
+
+}
+
 nav.mobile ul li{
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 700;
   font-size: 25px;
 	text-align: center;
 	display: block;
-	padding-top: 20px;
+	padding-top: 7px;
 	margin-right: 20px;
 	color:white;
 }
@@ -413,25 +470,22 @@ nav.mobile ul li{
 nav.mobile ul li a{
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 700;
-  font-size: 25px;
+
 	text-align: center;
 	display: block;
-	padding-top: 20px;
+
 	margin-right: 20px;
 	color:white;
 	text-decoration: none;
+
 
 }
 
 nav.mobile ul li a:hover{
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 700;
-  font-size: 25px;
 	text-align: center;
 	display: block;
-	padding-top: 20px;
-	margin-right: 20px;
-
 	text-decoration: none;
 	color:#1ad1ff;
 	cursor: pointer;
@@ -442,13 +496,13 @@ nav.mobile ul li a:hover{
 @media screen and (max-width: 1450px) {
 
 	.desktopnav{
-		font-size: 14px;
+		font-size: 13.5px;
 	}
 
 @media screen and (max-width: 1400px) {
 
 	.desktopnav{
-		font-size: 14px;
+		font-size: 13.5px;
 
 		padding-bottom: 50px;
 		padding-top: 5px;
@@ -483,7 +537,7 @@ nav.mobile ul li a:hover{
 	@media screen and (max-width: 1370px) {
 
 		.desktopnav{
-			font-size: 13px;
+			font-size: 12.5px;
 		}
 
 
@@ -1082,6 +1136,11 @@ nav.mobile ul li a:hover{
 
 									}
 
+									.footerInfo{
+
+										font-size: 9px;
+									}
+
 
 
 
@@ -1178,6 +1237,10 @@ nav.mobile ul li a:hover{
 											width: 300px;
 
 										}
+										.footerInfo{
+
+											font-size: 8px;
+										}
 
 										}
 
@@ -1270,6 +1333,10 @@ nav.mobile ul li a:hover{
 												margin-right: auto;
 												width: 230px;
 
+											}
+											.footerInfo{
+
+												font-size: 6px;
 											}
 
 											}

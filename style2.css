@@ -27,31 +27,6 @@ html, body {
 		background-color: #002e6d;
 	}
 
-	#submit{
-		font-family: 'Roboto Condensed', sans-serif;
-		font-weight: 700;
-		margin-bottom: 20px;
-		background-color: #1ad1ff ;
-		border: solid 0px white;
-		color: #001533;
-	}
-
-	.contact-datails{
-		font-family: 'Roboto', sans-serif;
-		font-size: 16px;
-		color: #001533;
-		padding-left: 20px;
-		width: 300px;
-	}
-
-	.page-header{
-		background-color: white;
-		border: solid 0px white;
-	}
-
-	.container{
-		max-width: 1500px;
-	}
 
 
 .navFlex{
@@ -73,17 +48,68 @@ html, body {
 	width: 20%;
 }
 
+
+ul {
+	 list-style: none;
+	 margin: 0;
+	 padding-left: 0;
+}
+
+li {
+	font-size: 20px;
+ background: #002e6d;
+	 display: block;
+	 float: center;
+	 padding: 1rem;
+	 position: relative;
+	 text-decoration: none;
+ transition-duration: 0.5s;
+}
+
+li a {
+ color: #fff;
+}
+
+
+
+ul li ul {
+
+	 visibility: hidden;
+ opacity: 0;
+ min-width: 5rem;
+	 position: absolute;
+ transition: all 0.5s ease;
+ margin-top: 1rem;
+	 left: 0;
+ display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+ visibility: visible;
+ opacity: 1;
+ display: block;
+}
+
+ul li ul li {
+	 clear: both;
+ width: 110%;
+}
+
+
 .officeInfo{
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	line-height: 1em;
 	color: white;
-	margin-top: 70px;
+	margin-top: 40px;
 	margin-bottom: 40px;
 }
 
-.officeInfo a{
-	text-decoration: none;
+#lineOne{
+	border: 1px solid white;
+	margin: 0px;
+	padding: 0px;
 }
 
 .registerButton{
@@ -101,11 +127,6 @@ html, body {
 	margin-bottom: 40px;
 }
 
-#lineOne{
-	border: 1px solid white;
-	margin: 0px;
-	padding: 0px;
-}
 
 .registerButton a{
 	text-decoration: none;
@@ -120,20 +141,27 @@ html, body {
 }
 
 
-#logo{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top:50px;
-	width: 400px;
+	#logo{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top:50px;
+		width: 400px;
 
-}
+	}
 
 	#LinkedIn{
 width:15px;
 	}
 
 .openingInfo{
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	max-width: 1500px;
+}
+
+.openingInfoTwo{
 	display: flex;
 	flex-direction: row;
 	align-items: stretch;
@@ -148,35 +176,73 @@ width:15px;
 	font-size: 18px;
 	line-height: 2em;
 	color: #001533;
-}
-
-#infoPadding{
 	padding-top: 30px;
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-bottom: 30px;
-
 }
 
-
-.infoTwo{
-	flex-grow: 2;
-	background-color: #ededed;
+.infoThree{
+	background-color: #dfe3ed;
 	width: 50%;
-	padding: 50px;
+	flex-grow: 1;
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	line-height: 2em;
 	color: #001533;
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 30px;
+}
+
+.infoOne a{
+	color: #001533;
+
+}
+
+.infoOne a:hover{
+	color: #1ad1ff;
+
+}
+
+
+
+.infoTwo{
+	justify-content: center;
+	display: flex;
+	position: relative;
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+}
+
+.infoFour{
+	justify-content: center;
+	display: flex;
+	position: relative;
+  width: 50%;
+  height: auto;
+  overflow: hidden;
 }
 
 
 
 #infoOneImage{
-	width:100%;
-	object-fit: cover;
-	height: 225px;
-	display: block;
+	justify-content: center;
+	position: absolute;
+	  right: 50%;
+	  bottom: 50%;
+	  height: auto;
+	  width: 200%;
+	  -webkit-transform: translate(50%,50%);
+	      -ms-transform: translate(50%,50%);
+	          transform: translate(50%,50%);
+
+}
+
+#mobileImage{
+	display: none;
 }
 
 
@@ -239,7 +305,7 @@ li{
 	width: 50%;
 	padding: 50px;
 	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
+	font-size: 11px;
 	line-height: 2em;
 	color: #001533;
 
@@ -247,8 +313,8 @@ li{
 
 .footerInfo{
 	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-	line-height: 1.7em;
+	font-size: 11px;
+	line-height: 1.3em;
   text-align: center;
 	color: white;
 background-color: #002e6d ;
@@ -298,13 +364,20 @@ display: block;
 color:#002e6d;
 }
 
+nav.mobile ul {
+	margin-top: 25px;
+	margin-left: 30px;
+
+
+}
+
 nav.mobile ul li{
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 700;
   font-size: 25px;
 	text-align: center;
 	display: block;
-	padding-top: 20px;
+	padding-top: 7px;
 	margin-right: 20px;
 	color:white;
 }
@@ -312,10 +385,10 @@ nav.mobile ul li{
 nav.mobile ul li a{
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 700;
-  font-size: 25px;
+
 	text-align: center;
 	display: block;
-	padding-top: 20px;
+
 	margin-right: 20px;
 	color:white;
 	text-decoration: none;
@@ -325,12 +398,8 @@ nav.mobile ul li a{
 nav.mobile ul li a:hover{
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 700;
-  font-size: 25px;
 	text-align: center;
 	display: block;
-	padding-top: 20px;
-	margin-right: 20px;
-
 	text-decoration: none;
 	color:#1ad1ff;
 	cursor: pointer;
@@ -341,15 +410,13 @@ nav.mobile ul li a:hover{
 @media screen and (max-width: 1450px) {
 
 	.desktopnav{
-		font-size: 14px;
+		font-size: 13.5px;
 	}
-
-}
 
 @media screen and (max-width: 1400px) {
 
 	.desktopnav{
-		font-size: 14px;
+		font-size: 13.5px;
 
 		padding-bottom: 50px;
 		padding-top: 5px;
@@ -364,8 +431,8 @@ nav.mobile ul li a:hover{
 
 
 	.navTwo{
-		padding-left: 35px;
-		padding-right: 50px;
+		padding-left: 30px;
+		padding-right: 20px;
 
 	}
 
@@ -375,15 +442,13 @@ nav.mobile ul li a:hover{
 		margin-bottom: 10px;
 	}
 
-	#infoOneImage{
-		height: 260px;
+
 
 	}
-
 	@media screen and (max-width: 1370px) {
 
 		.desktopnav{
-			font-size: 13px;
+			font-size: 12.5px;
 		}
 
 
@@ -422,7 +487,6 @@ nav.mobile ul li a:hover{
 
 		}
 
-
 		@media screen and (max-width: 1200px) {
 
 			.desktopnav{
@@ -451,7 +515,7 @@ nav.mobile ul li a:hover{
 
 			.officeInfo{
 				font-size: 12px;
-
+				margin-top: 60px;
 			}
 
 			.registerButton{
@@ -462,10 +526,6 @@ nav.mobile ul li a:hover{
 
 			}
 
-			#infoOneImage{
-				height: 300px;
-
-			}
 
 
 			}
@@ -478,7 +538,6 @@ nav.mobile ul li a:hover{
 
 
 			}
-
 
 			@media screen and (max-width: 1100px) {
 
@@ -523,10 +582,9 @@ nav.mobile ul li a:hover{
 
 				}
 
-
 				.officeInfo{
 					font-size: 12px;
-
+					margin-top: 60px;
 				}
 
 				.registerButton{
@@ -537,10 +595,6 @@ nav.mobile ul li a:hover{
 
 				}
 
-				#infoOneImage{
-					height: 340px;
-
-				}
 
 
 				}
@@ -564,21 +618,22 @@ nav.mobile ul li a:hover{
 					}
 
 
-					li{
-						padding-left: 10px;
-						padding-right: 10px;
-					}
-
 					.navTwo{
 						padding-left: 20px;
 						padding-right: 25px;
 
 					}
 
+					.navTwo{
+						padding-left: 30px;
+						padding-right: 10px;
+
+					}
+
 
 					.officeInfo{
 						font-size: 11px;
-
+						margin-top: 60px;
 					}
 
 					.registerButton{
@@ -589,10 +644,7 @@ nav.mobile ul li a:hover{
 
 					}
 
-					#infoOneImage{
-						height: 380px;
 
-					}
 
 
 					}
@@ -636,7 +688,7 @@ nav.mobile ul li a:hover{
 
 						.officeInfo{
 							font-size: 12px;
-
+							margin-top: 60px;
 						}
 
 						.registerButton{
@@ -647,10 +699,7 @@ nav.mobile ul li a:hover{
 
 						}
 
-						#infoOneImage{
-							height: 300px;
 
-						}
 
 						.infoOne{
 							font-size: 16px;
@@ -659,6 +708,11 @@ nav.mobile ul li a:hover{
 						.infoTwo{
 							font-size: 16px;
 						}
+
+						.infoThree{
+							font-size: 16px;
+						}
+
 
 						h1{
 							font-size: 20px;
@@ -670,35 +724,36 @@ nav.mobile ul li a:hover{
 						@media screen and (max-width: 800px) {
 
 
-							.mobileMenuButton{
-								font-size: 30px;
-								margin-right: 265px;
 
-							}
+														.mobileMenuButton{
+															font-size: 30px;
+															margin-right: 265px;
 
-							#logo{
-								display: block;
-								float: left;
-								margin-top:80px;
-								margin-left: 30px;
-								width: 275px;
+														}
 
-							}
+														#logo{
+															display: block;
+															float: left;
+															margin-top:80px;
+															margin-left: 30px;
+															width: 275px;
 
-
-
-							li{
-								padding-left: 10px;
-								padding-right: 10px;
-							}
-
-							.navTwo{
-								padding-left: 30px;
-								padding-right: 30px;
-								width: 30%;
+														}
 
 
-							}
+
+														li{
+															padding-left: 10px;
+															padding-right: 10px;
+														}
+
+														.navTwo{
+															padding-left: 30px;
+															padding-right: 30px;
+															width: 30%;
+
+
+														}
 
 							.navOne{
 								width: 70%;
@@ -707,7 +762,7 @@ nav.mobile ul li a:hover{
 
 							.officeInfo{
 								font-size: 12px;
-
+								margin-top: 60px;
 							}
 
 							.registerButton{
@@ -718,10 +773,6 @@ nav.mobile ul li a:hover{
 
 							}
 
-							#infoOneImage{
-								height: 330px;
-
-							}
 
 							.infoOne{
 								font-size: 16px;
@@ -729,8 +780,40 @@ nav.mobile ul li a:hover{
 							}
 
 							.infoTwo{
-								font-size: 16px;
+							 justify-content: center;
+							 display: flex;
+							 flex-wrap: wrap;
+							 position: relative;
 								width: 100%;
+								height: auto;
+								overflow: hidden;
+							}
+
+							#infoOneImage{
+								justify-content: center;
+								position: relative;
+
+								  width: 100%;
+									height: 500px;
+									display: block;
+
+									object-fit: cover;
+								 margin-top: -250px;
+
+								 		-moz-transform: translate(50%,50%);
+										 -ms-transform: translate(100%,100%);
+
+
+							}
+
+
+							.infoThree{
+								font-size: 16px;
+								width: 100%
+							}
+
+							.infoFour{
+								display: none;
 							}
 
 							h1{
@@ -745,18 +828,19 @@ nav.mobile ul li a:hover{
 							@media screen and (max-width: 700px) {
 
 
-								.mobileMenuButton{
-									font-size: 30px;
-									margin-right: 50px;
-									margin-top: -140px;
-								}
 
-								#logo{
-									display: block;
-									float: left;
-									margin-top:10px;
-									margin-left: 50px;
-								}
+																.mobileMenuButton{
+																	font-size: 30px;
+																	margin-right: 50px;
+																	margin-top: -140px;
+																}
+
+																#logo{
+																	display: block;
+																	float: left;
+																	margin-top:10px;
+																	margin-left: 50px;
+																}
 
 
 								li{
@@ -796,10 +880,6 @@ nav.mobile ul li a:hover{
 								}
 
 
-								#infoOneImage{
-									height: 200px;
-
-								}
 
 								.infoOne{
 									font-size: 16px;
@@ -809,6 +889,11 @@ nav.mobile ul li a:hover{
 								.infoTwo{
 									font-size: 16px;
 									width: 100%;
+								}
+
+								.infoThree{
+									font-size: 16px;
+									width: 100%
 								}
 
 								h1{
@@ -829,6 +914,7 @@ nav.mobile ul li a:hover{
 																	}
 
 
+
 																	#logo{
 																		display: block;
 																		float: left;
@@ -836,6 +922,7 @@ nav.mobile ul li a:hover{
 																		margin-left: 50px;
 																		width: 250px;
 																	}
+
 
 
 									li{
@@ -883,10 +970,6 @@ nav.mobile ul li a:hover{
 
 									}
 
-									#infoOneImage{
-										height: 200px;
-
-									}
 
 									.infoOne{
 										font-size: 16px;
@@ -896,6 +979,11 @@ nav.mobile ul li a:hover{
 									.infoTwo{
 										font-size: 16px;
 										width: 100%;
+									}
+
+									.infoThree{
+										font-size: 16px;
+										width: 100%
 									}
 
 									h1{
@@ -926,6 +1014,11 @@ nav.mobile ul li a:hover{
 								width:20px;
 									}
 
+									.footerInfo{
+
+										font-size: 9px;
+									}
+
 
 
 									}
@@ -949,7 +1042,6 @@ nav.mobile ul li a:hover{
 																		}
 
 
-
 										li{
 											padding-left: 10px;
 											padding-right: 10px;
@@ -958,10 +1050,6 @@ nav.mobile ul li a:hover{
 										.navTwo{
 
 											width: 100%;
-											margin-right: auto;
-											margin-left:auto;
-											display:block;
-
 
 
 
@@ -995,10 +1083,6 @@ nav.mobile ul li a:hover{
 
 										}
 
-										#infoOneImage{
-											height: 200px;
-
-										}
 
 										.infoOne{
 											font-size: 16px;
@@ -1010,8 +1094,18 @@ nav.mobile ul li a:hover{
 											width: 100%;
 										}
 
+										.infoThree{
+											font-size: 16px;
+											width: 100%
+										}
+
 										h1{
 											font-size: 20px;
+										}
+
+										.footerInfo{
+
+											font-size: 8px;
 										}
 
 										}
@@ -1091,8 +1185,18 @@ nav.mobile ul li a:hover{
 												width: 100%;
 											}
 
+											.infoThree{
+												font-size: 16px;
+												width: 100%
+											}
+
 											h1{
 												font-size: 20px;
+											}
+
+											.footerInfo{
+
+												font-size: 6px;
 											}
 
 											}
